@@ -1,0 +1,51 @@
+{
+  "id": "calculadora-free",
+  "name": "Calculadora Gratis",
+  "short_name": "Calculadora Gratis",
+  "description": "Calculadora minimalista y precisa con historial, funciones científicas y modo oscuro sin conexión.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "orientation": "portrait-primary",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "lang": "es",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "categories": [
+    "education",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Calculadora Gratis",
+      "url": "./",
+      "icons": [
+        {
+          "src": "./icon.svg",
+          "sizes": "192x192 512x512",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
